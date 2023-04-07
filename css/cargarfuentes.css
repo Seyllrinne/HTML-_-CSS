@@ -1,0 +1,16 @@
+@font-face {
+  font-family: miFuente;
+  src: url(fuente.ttf);
+}
+h1 {
+  font-family: miFuente;
+}
+h2 {
+  font-family: miFuente;
+  text-transform: uppercase;
+}
+
+@font-face {
+  font-family: miFuente;
+  src: url(https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap);
+}

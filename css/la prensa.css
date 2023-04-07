@@ -1,0 +1,41 @@
+.prensa {
+  background-color: darkgray;
+  font-size: 100px;
+  font-style: oblique;
+  margin: auto;
+}
+.h1 {
+  background-color: rgb(196, 191, 191);
+  text-align: right;
+  margin-block-start: 0px;
+}
+.grey {
+  background-color: lightgrey;
+  width: 162px;
+  margin-block-end: 2px;
+}
+.greyblack {
+  background-color: gray;
+  color: white;
+  margin-top: 0px;
+  text-align: center;
+  margin-block-end: 0px;
+}
+.div {
+  border: 1px solid black;
+  width: 160px;
+}
+.container {
+  width: 180px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: auto;
+  float: left;
+  border-left: 4px dashed pink;
+  border-right: 4px dashed purple;
+}
+.parrafo {
+  margin-bottom: 1px;
+  margin-top: 1px;
+  padding: 10px;
+}

@@ -1,0 +1,6 @@
+.first {
+  border-width: 35px;
+  -webkit-border-image: url(mundo.svg);
+  border-image: url(mundo.svg);
+  border-style: solid;
+}

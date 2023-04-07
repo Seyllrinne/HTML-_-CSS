@@ -1,0 +1,39 @@
+.container {
+  width: 600px;
+  height: 100px;
+  border: 1px solid black;
+}
+.box1 {
+  background: violet;
+  animation: move 1s forwards;
+}
+
+@keyframes move {
+  from {
+    width: 30px;
+    height: 100px;
+  }
+  to {
+    width: 500px;
+    height: 100px;
+  }
+}
+
+.first {
+  width: 600px;
+  height: 300px;
+  border: 1px solid black;
+}
+.two {
+  background: darkblue;
+  animation: move 1s forwards;
+}
+.three {
+  background: url(https://pablomonteserin.com/res/html5/ex/animations/keyframes/barrita-corazones/corazon-mask.png),
+    blue;
+  animation: move 1s forwards;
+}
+.four {
+  background: lightblue;
+  animation: move 1s forwards;
+}

@@ -1,0 +1,7 @@
+div{
+    background: url(https://pablomonteserin.com/wp-content/uploads//2020/10/mundo.svg),url(https://pablomonteserin.com/wp-content/uploads//2020/10/tijeras.svg) no-repeat bottom right, radial-gradient(ellipse at center, rgba(228,245,252,1) 0%,rgba(42,176,237,1) 16%,rgba(42,176,237,1) 16%,rgba(191,232,249,1) 26%,rgba(69,111,164,1) 84%);
+    background-size: 50% 50%, auto;
+    width: 400px;
+    height: 400px; 
+    
+}

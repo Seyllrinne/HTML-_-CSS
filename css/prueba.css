@@ -1,0 +1,21 @@
+.div {
+}
+.first {
+  width: 300px;
+  height: 400px;
+  background: red;
+  animation: changeBackground 0.4s ease-in 1s infinite alternate;
+  animation-play-state: paused;
+}
+.first:hover {
+  animation: move 1s forwards;
+  animation-play-state: running;
+}
+@keyframes move {
+  80% {
+    transform: scale(2, 1);
+  }
+  50% {
+    transform: rotate(500deg);
+  }
+}

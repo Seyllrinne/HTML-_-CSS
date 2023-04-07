@@ -1,0 +1,55 @@
+@font-face {
+  font-family: flechita;
+  src: url(Arrows_tfb.ttf);
+}
+.eye {
+  margin: auto;
+  display: inline-block;
+}
+li {
+  border: 2px solid black;
+  border-radius: 3px;
+  background-color: blueviolet;
+  text-decoration: none;
+  list-style: none;
+  width: 100px;
+  text-align: center;
+  display: inline-block;
+}
+li a {
+  text-decoration: none;
+  color: rgb(224, 189, 214);
+  font-weight: bold;
+}
+
+li a:hover {
+  transition: 1s;
+  color: aliceblue;
+}
+
+li:hover {
+  background-color: blue;
+  transition: 1s;
+}
+.hasChildren a::after {
+  color: aquamarine;
+  content: "a";
+  font-family: "flechita";
+}
+.hasChildren ul {
+  position: absolute;
+  padding: 0;
+  padding-left: 0;
+}
+.hasChildren li {
+  display: block;
+}
+li.hasChildren ul {
+  opacity: 0;
+  overflow: hidden;
+  max-height: 0px;
+}
+li.hasChildren:hover ul {
+  opacity: 1;
+  max-height: 800px;
+}

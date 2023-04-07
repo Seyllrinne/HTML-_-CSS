@@ -1,0 +1,13 @@
+input[required] {
+  border: solid 4px black;
+}
+input:not([type=submit]):valid {
+  background: green;
+}
+input:invalid {
+  background: red;
+}
+label {
+  width: 150px;
+  display: inline-block;
+}

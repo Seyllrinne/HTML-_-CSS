@@ -1,0 +1,17 @@
+.container{
+    background-image: url(https://pablomonteserin.com/wp-content/uploads/2020/05/bg.jpg);
+    width: 750px;
+    height: 571px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.box {
+    border: 30px;
+    width: 200px;
+    padding: 10px;
+}
+.p{
+    font-weight: bolder;
+    font-size: x-large;
+}

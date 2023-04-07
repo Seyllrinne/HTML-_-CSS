@@ -1,0 +1,22 @@
+.container {
+  display: grid;
+}
+.box {
+  padding: 20px 50px;
+}
+
+.rosa {
+  background: pink;
+  grid-row: 2;
+}
+
+.azul {
+  background: blue;
+  grid-column: 1/1;
+  grid-row: 2/4;
+}
+
+.naranja {
+  background: orange;
+  grid-row: 3;
+}

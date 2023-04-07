@@ -1,0 +1,23 @@
+div {
+  background: purple;
+  width: 400px;
+  height: 400px;
+  transition: 2s;
+}
+div:hover {
+  background: turquoise;
+  transition: 0.5s;
+}
+h1 {
+  text-shadow: -60pc -7pc 0pc red, -20px -2px 0px yellow, 20pt -15pt 0pt blue,
+    9px 8px 0px pink;
+  width: 300px;
+  margin: auto;
+  transition: 1s;
+}
+h1:hover {
+  text-shadow: -18px -16px 0px red, -20px -9px 0px yellow, 9pt -20pt 0pt blue,
+    12px 20px 0px pink;
+
+  transition: 3s;
+}

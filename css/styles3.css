@@ -1,0 +1,21 @@
+.panteon {
+  background-image: url(./panteon.jpg);
+  height: 490px;
+  width: 720px;
+  overflow: hidden;
+}
+.arial {
+  margin-left: 180px;
+}
+.box {
+  margin-left: 40px;
+}
+.boxie {
+  width: 45px;
+  height: 120px;
+  overflow: auto;
+  padding: 25px;
+  border: 8px;
+  margin-top: 220px;
+  display: inline-block;
+}

@@ -1,0 +1,43 @@
+body {
+  background: rgb(179, 189, 157);
+}
+.container {
+  width: 800px;
+  margin: auto;
+}
+h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 50px;
+  text-align: center;
+}
+h2 {
+  background: pink;
+  line-height: 2rem;
+  width: auto;
+  font-size: 2.5rem;
+  margin: 0;
+  padding: 20px;
+}
+p {
+  text-align: justify;
+}
+.first {
+  display: flex;
+  justify-items: center;
+}
+.first img {
+  display: block;
+  margin: auto;
+}
+.second {
+  display: flex;
+  justify-content: left;
+}
+.third {
+  display: flex;
+  justify-content: right;
+}
+.third img {
+  float: right;
+}

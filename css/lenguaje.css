@@ -1,0 +1,18 @@
+.container {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  column-gap: 25px;
+}
+.tres {
+  align-items: center;
+}
+.box {
+  text-align: justify;
+}
+
+img {
+  max-width: 80px;
+  padding: 20px;
+  margin: auto;
+  display: block;
+}

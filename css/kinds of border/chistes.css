@@ -1,0 +1,23 @@
+.amarillo {
+  background-color: rgb(252, 255, 56);
+  border-style: dashed;
+  border: 5px solid black;
+}
+.verde {
+  background-color: green;
+  border-style: groove;
+}
+.grey {
+  background-color: darkgray;
+  border-style: dotted;
+}
+.box {
+  height: 100px;
+  padding: 40px;
+  text-align: justify;
+}
+.container {
+  align-items: center;
+  margin: auto;
+  width: 800px;
+}

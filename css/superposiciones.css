@@ -1,0 +1,47 @@
+.first{
+    background: palegoldenrod;
+    border: 2px solid gold;
+    text-align: center;
+    padding: 10px;  
+}
+.second{
+    width: 800px;
+    height: 800px;
+    position: relative;
+}
+.box1{
+    background: rosybrown ;
+    border: 2px solid fuchsia;
+    top: 0%;
+    right: 50%;
+}
+.absolute:hover{
+position: absolute;
+    
+}
+.box2{
+    background: lightgreen;
+    border: 2px solid green;
+    top: 0%;
+    right: 50%;
+}
+.box3{
+    background: lightskyblue;
+    border: 2px solid blue;
+    position: relative;
+    top: 50% ;
+    left: 50%;
+}
+.box4{
+    background: lightgoldenrodyellow ;
+    border: 2px solid goldenrod;
+    position: relative;
+    top:50% ;
+    left: 50%;
+}
+.box5{
+    background: lightcoral;
+    border: 2px solid coral;
+    position: fixed;
+
+}

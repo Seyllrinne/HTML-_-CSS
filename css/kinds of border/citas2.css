@@ -1,0 +1,31 @@
+body {
+  background-color: green;
+}
+.brown {
+  background-color: darksalmon;
+  border: 10px solid brown;
+  margin-left: 0px;
+  width: 800px;
+  text-align: justify;
+}
+.white {
+  background-color: white;
+  border: 7px solid black;
+  width: 800px;
+  text-align: justify;
+  margin: auto;
+}
+.yellow {
+  background-color: rgb(224, 208, 155);
+  border: 7px solid rgb(231, 182, 46);
+  width: 800px;
+  text-align: justify;
+  margin-left: 800px;
+}
+.blue {
+  background-color: turquoise;
+  border: 10px dashed blue;
+  width: 400px;
+  text-align: justify;
+  margin: auto;
+}

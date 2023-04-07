@@ -1,0 +1,24 @@
+.first {
+  background-color: darkgray;
+  font: bold;
+  margin: 0px;
+  font-size: 100px;
+}
+.second {
+  background-color: rgb(32, 73, 87);
+  color: aliceblue;
+  margin: 0px;
+  text-align: right;
+}
+.container {
+  width: 100px;
+  display: flex;
+  margin: 0px;
+}
+.third {
+  background-color: bisque;
+}
+.reference {
+  background-color: aqua;
+  border: 1px;
+}

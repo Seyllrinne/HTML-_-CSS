@@ -1,0 +1,13 @@
+div {
+  border-width: 35px;
+  padding: 20px;
+  border-style: solid;
+}
+#stretch {
+  -webkit-border-image: url(border.png) 20 20 stretch;
+  border-image: url(border.png) 20 20 stretch;
+}
+#round {
+  -webkit-border-image: url(border.png) 20 20 round;
+  border-image: url(border.png) 40 40 round;
+}
